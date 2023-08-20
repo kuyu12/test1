@@ -1,10 +1,28 @@
 {
   "dashboardAuthorizations": {
     "allAuthorized": false,
-    "authorizations": []
+    "authorizations": [
+      {
+        "objectRef": {
+          "objectId": "dataset",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "DISCOVER",
+          "READ"
+        ]
+      }
+    ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "dataset",
+        "quickSharingEnabled": true,
+        "rules": []
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -188,6 +206,14 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692538517770,
+    "extendedProperties": {}
   },
   "creationTag": {
     "versionNumber": 0,
