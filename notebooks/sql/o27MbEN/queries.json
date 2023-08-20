@@ -22,6 +22,28 @@
         },
         "sql": "SELECT * FROM \"public\".\"pg_stat_statements\"",
         "expandedSql": "SELECT * FROM \"public\".\"pg_stat_statements\""
+      },
+      {
+        "mode": "SQL",
+        "id": "YCO2AQ1dPBUc",
+        "runOn": 1692537256173,
+        "runIn": 379,
+        "runBy": "yair_hadad@epam.com",
+        "connection": "postgres-naya",
+        "state": "RUNNING",
+        "futureId": "xkrCOKXI",
+        "hash": "ce7c95471443ca754f15c36ee73137f1",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT * FROM \"public\".\"pg_stat_statements\"\nWHERE plans \u003d 0",
+        "expandedSql": "SELECT * FROM \"public\".\"pg_stat_statements\"\nWHERE plans \u003d 0"
       }
     ]
   }
