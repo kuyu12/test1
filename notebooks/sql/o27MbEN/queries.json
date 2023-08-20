@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "k2h2na52md": [
+      {
+        "mode": "SQL",
+        "id": "O5GVvSnPoUuj",
+        "runOn": 1692537243688,
+        "runIn": -1,
+        "runBy": "yair_hadad@epam.com",
+        "connection": "postgres-naya",
+        "state": "RUNNING",
+        "futureId": "UrMLfjaM",
+        "hash": "4fc1b7197ceb76cf67841a4bd8c7d618",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT * FROM \"public\".\"pg_stat_statements\"",
+        "expandedSql": "SELECT * FROM \"public\".\"pg_stat_statements\""
+      }
+    ]
+  }
+}
