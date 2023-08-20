@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "yair_hadad@epam.com"
     },
-    "lastModifiedOn": 1692537286604,
+    "lastModifiedOn": 1692537290736,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,40 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"userid","type":"bigint","originalType":"oid"},
+      {"name":"dbid","type":"bigint","originalType":"oid"},
+      {"name":"queryid","type":"bigint","originalType":"int8"},
+      {"name":"query","type":"string","originalType":"text"},
+      {"name":"plans","type":"bigint","originalType":"int8"},
+      {"name":"total_plan_time","type":"double","originalType":"float8"},
+      {"name":"min_plan_time","type":"double","originalType":"float8"},
+      {"name":"max_plan_time","type":"double","originalType":"float8"},
+      {"name":"mean_plan_time","type":"double","originalType":"float8"},
+      {"name":"stddev_plan_time","type":"double","originalType":"float8"},
+      {"name":"calls","type":"bigint","originalType":"int8"},
+      {"name":"total_exec_time","type":"double","originalType":"float8"},
+      {"name":"min_exec_time","type":"double","originalType":"float8"},
+      {"name":"max_exec_time","type":"double","originalType":"float8"},
+      {"name":"mean_exec_time","type":"double","originalType":"float8"},
+      {"name":"stddev_exec_time","type":"double","originalType":"float8"},
+      {"name":"rows","type":"bigint","originalType":"int8"},
+      {"name":"shared_blks_hit","type":"bigint","originalType":"int8"},
+      {"name":"shared_blks_read","type":"bigint","originalType":"int8"},
+      {"name":"shared_blks_dirtied","type":"bigint","originalType":"int8"},
+      {"name":"shared_blks_written","type":"bigint","originalType":"int8"},
+      {"name":"local_blks_hit","type":"bigint","originalType":"int8"},
+      {"name":"local_blks_read","type":"bigint","originalType":"int8"},
+      {"name":"local_blks_dirtied","type":"bigint","originalType":"int8"},
+      {"name":"local_blks_written","type":"bigint","originalType":"int8"},
+      {"name":"temp_blks_read","type":"bigint","originalType":"int8"},
+      {"name":"temp_blks_written","type":"bigint","originalType":"int8"},
+      {"name":"blk_read_time","type":"double","originalType":"float8"},
+      {"name":"blk_write_time","type":"double","originalType":"float8"},
+      {"name":"wal_records","type":"bigint","originalType":"int8"},
+      {"name":"wal_fpi","type":"bigint","originalType":"int8"},
+      {"name":"wal_bytes","type":"double","originalType":"numeric"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
