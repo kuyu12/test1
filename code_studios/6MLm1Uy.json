@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "libName": "test",
+  "templateId": "PyCharm",
+  "params": {},
+  "owner": "yair_hadad@epam.com",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692538138389,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692538138389,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
