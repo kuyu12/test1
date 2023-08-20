@@ -1,0 +1,27 @@
+{
+  "connection": "postgres-naya",
+  "name": "yair_hadad@epam.com\u0027s notebook on postgres-naya",
+  "cells": [],
+  "automationLocal": false,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692537234569,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692537234569,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
