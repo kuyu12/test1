@@ -5,10 +5,10 @@
         "mode": "SQL",
         "id": "O5GVvSnPoUuj",
         "runOn": 1692537243688,
-        "runIn": -1,
+        "runIn": 379,
         "runBy": "yair_hadad@epam.com",
         "connection": "postgres-naya",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "UrMLfjaM",
         "hash": "4fc1b7197ceb76cf67841a4bd8c7d618",
         "querySettings": {
