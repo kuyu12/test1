@@ -1,4 +1,20 @@
 {
+  "uiData": {
+    "mode": "ES_QUERY_STRING",
+    "$latestOperator": "\u0026\u0026",
+    "$filterOptions": "ES_QUERY_STRING",
+    "conditions": [
+      {
+        "input": "event#”:”12,”eventType",
+        "col": "event#”:”1”,”eventType",
+        "$showList": false,
+        "num": 0,
+        "operator": "contains"
+      }
+    ]
+  },
+  "expression": "Critical",
+  "$status": {},
   "distinct": false,
-  "enabled": false
+  "enabled": true
 }
