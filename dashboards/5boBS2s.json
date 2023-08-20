@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "fkJ5ZUl",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "yair_hadad@epam.com",
+  "listed": true,
+  "name": "Yair_project\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692537106746,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "yair_hadad@epam.com"
+    },
+    "lastModifiedOn": 1692537106746,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
