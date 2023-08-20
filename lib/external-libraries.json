@@ -1,5 +1,12 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python": {
+      "remote": "https://github.com/noahsark769/simplegit",
+      "checkout": "refs/heads/master",
+      "remotePath": "",
+      "isDirty": false
+    }
+  },
   "pythonPath": [
     "python"
   ],
