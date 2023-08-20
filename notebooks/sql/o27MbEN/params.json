@@ -1,14 +1,28 @@
 {
   "connection": "postgres-naya",
   "name": "yair_hadad@epam.com\u0027s notebook on postgres-naya",
-  "cells": [],
+  "cells": [
+    {
+      "id": "k2h2na52md",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "yair_hadad@epam.com"
     },
-    "lastModifiedOn": 1692537234569,
+    "lastModifiedOn": 1692537237839,
     "extendedProperties": {}
   },
   "creationTag": {
