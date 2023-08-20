@@ -29,7 +29,25 @@
   "hasSetupSection": false,
   "owner": "yair_hadad@epam.com",
   "permissionsVersion": "V2",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "space_administrators",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -208,11 +226,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "yair_hadad@epam.com"
+      "login": "api:9R2GCK873B06IGHT"
     },
-    "lastModifiedOn": 1692538517770,
+    "lastModifiedOn": 1692540070892,
     "extendedProperties": {}
   },
   "creationTag": {
