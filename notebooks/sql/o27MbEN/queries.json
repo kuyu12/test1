@@ -27,10 +27,10 @@
         "mode": "SQL",
         "id": "YCO2AQ1dPBUc",
         "runOn": 1692537256173,
-        "runIn": 379,
+        "runIn": 328,
         "runBy": "yair_hadad@epam.com",
         "connection": "postgres-naya",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "xkrCOKXI",
         "hash": "ce7c95471443ca754f15c36ee73137f1",
         "querySettings": {
