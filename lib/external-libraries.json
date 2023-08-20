@@ -4,6 +4,10 @@
       "remote": "https://github.com/noahsark769/simplegit",
       "checkout": "refs/heads/master",
       "remotePath": "",
+      "lastHash": "3399db23019d55b7351139df5d07c788daf2cd34",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
       "isDirty": false
     }
   },
