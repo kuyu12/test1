@@ -18,3 +18,6 @@ tt_df = dataset_df # For this sample code, simply copy input to output
 # Write recipe outputs
 tt = dataiku.Dataset("tt")
 tt.write_with_schema(tt_df)
+
+
+
