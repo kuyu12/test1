@@ -59,6 +59,7 @@
       "zonesGraphConnectZones": true
     },
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
@@ -226,11 +227,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "api:9R2GCK873B06IGHT"
+      "login": "yair_hadad@epam.com"
     },
-    "lastModifiedOn": 1692540070892,
+    "lastModifiedOn": 1692648398569,
     "extendedProperties": {}
   },
   "creationTag": {
